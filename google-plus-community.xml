@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Google Plus Community" title_url="http://plus.google.com/"
+          description="Display Google+ Communities Badges"
+          author="Dan B">
+    <Require feature="dynamic-height"/>
+  </ModulePrefs>
+  <UserPref name="Community" display_name="Operations Support" required="true"/>
+ <Content type="html">
+  <![CDATA[<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<g:community href="https://plus.google.com/communities/102765442034643400622"></g:community>]]>
+  </Content>
+</Module>
